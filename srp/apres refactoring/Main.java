@@ -15,7 +15,7 @@ public class Main {
 
         System.out.println("Gestion transaction...\n");
         BookBusinessLogic transac = new BookBusinessLogic();
-        transac.emprunter(book, "toto");
+        transac.emprunter(book, "Nana");
         transac.autreService(book);
 
     }
